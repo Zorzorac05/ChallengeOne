@@ -1,14 +1,17 @@
 * {
+    /* Universal selector sets margin and padding for the page*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* sets the background color to the items in the body tags(most of the page)*/
     background-color: #d9dcd6;
 }
 
 .header {
+    /* sets up the font padding background color and color of the header class */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +19,18 @@ body {
 }
 
 .header h1 {
+    /* modifies the h1 tag within the header class*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /* sets text color of the h1 tag in the header class and seo class*/
     color: #d9dcd6;
 }
 
 .header div {
+    /* modifies text within the div element in the header class, changes margin, padding the font and font size as well as makes it float to the right*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,24 +39,29 @@ body {
 }
 
 .header div ul {
+    /* makes it so the items in the list do not have bullet points*/
     list-style-type: none;
 }
 
 .header div ul li {
+    /* makes the list items run from left to right rather than being top down*/
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /*sets the text folor to white within the a tag also removes accents on text */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* sets the pont size within the p tag */
     font-size: 16px;
 }
 
 .hero {
+    /* sets up the big image front and center when you open the site*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,23 +70,90 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
+    /* creates the box sections for the Seo, oline reputation managment ans social media marketing sections*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.search-engine-optimization {
+    /* sets up how the box looks in the serach engine optimization area */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    /* sets up the max height of the image within the blue box of the search engine optimization*/
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    /* creates the larger text in the box acting as a header for it */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    /* sets the image on the left hand side of the blue box*/
+    float: left;
+    margin-right: 25px;
+}
+
+.online-reputation-management {
+    /* sets up how the blue box looks in the online reputation managment area the same as the other one*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    /* sets up the max height for the image in the blue box*/
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    /* creates the larger text in the box acting as a header for it */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-right {
+    /* sets the image on the right hand side of the blue box*/
+    float: right;
+    margin-left: 25px;
+}
+
+.social-media-marketing {
+    /* sets up how the blue box looks for the social media marketing area of the page*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    /* sets up the max height for the image in the blue box*/
+    max-height: 200px;
+}
+
+.social-media-marketing h2 {
+    /* creates the larger text in the box acting as a header for it */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .benefits {
+    /* sets up the blue box you see on the right hand side of the page that runs verticaly down the page*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,108 +165,64 @@ p {
 }
 
 .benefit-lead {
+    /* sets up the area within the blue box for the lead generation section*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    /* sets up the area within the blue box for the brand awarness section*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    /* sets up the area within the blue box for the cost managment section*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
+    /* sets up the larger text for the lead generation section*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
+    /* sets up the larger text for brand awarness section*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
+    /* sets up the larger text for the cost managment section*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+    /* sets up the icon image for the lead section*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
+    /* sets up the icon image for the brand section*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
+    /* sets up the icon image for the cost section*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer {
+    /* sets the font  text alignment and padding of the footer*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +230,6 @@ p {
 }
 
 .footer h2 {
+    /* changes the font size in the h2 tag of the footer section*/
     font-size: 20px;
 }
